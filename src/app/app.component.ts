@@ -11,7 +11,6 @@ export class AppComponent {
   squares: string[][] = [];
   rows: number = 3;
   cols: number = 3;
-  letters: string = '0123456789ABCDEF';
 
   ngOnInit(): void {
     for (let i=0; i<this.rows; i++) {
