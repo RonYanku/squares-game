@@ -1,0 +1,12 @@
+.page {
+  width: 20vh;
+  height: 20vh;
+  border-style: solid;
+  margin-left: -5px;
+  margin-top: -4px;
+  transition-duration: 1s;
+}
+
+.page:focus {
+  outline: none;
+}

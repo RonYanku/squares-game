@@ -117,8 +117,13 @@
               "devServerTarget": "squares-game:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "squares-game"
 }
